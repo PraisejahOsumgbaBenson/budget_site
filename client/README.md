@@ -2,9 +2,6 @@
 
 **BudgetBuddy** is a digital budgeting tool built with React. It helps users manage their expenses by adding items to a market list, calculating the total amount spent, and comparing it against a customizable budget. Users can also select their preferred currency and receive notifications for successful actions or errors.
 
-## Demo
-
-_(Include a screenshot or GIF of the app here)_
 
 ## Features
 
@@ -19,5 +16,5 @@ _(Include a screenshot or GIF of the app here)_
 ### Prerequisites
 - Make sure you have **Node.js** installed to run this project locally.
 
-### Installation
+
 
