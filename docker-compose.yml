@@ -1,16 +1,16 @@
 services:
   mysql:
     image: mysql:8.0
-    container_name: mysql_budget_site_db
+    container_name: ${CONTAINER_NAME}
     command: --default-authentication-plugin=mysql_native_password
     environment:
-      MYSQL_ROOT_PASSWORD: Praisejah_root
-      MYSQL_DATABASE: budget_db
-      MYSQL_USER: Praisejah
-      MYSQL_PASSWORD: password
-      MYSQL_AUTH_PLUGIN: caching_sha2_password
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_AUTH_PLUGIN: ${MYSQL_AUTH_PLUGIN}
     ports:
-      - "3306:3306"
+      - "${MYSQL_PORT}:${MYSQL_PORT}"
     volumes:
       - mysql_data:/var/lib/mysql
     healthcheck:
@@ -21,3 +21,5 @@ services:
 
 volumes:
   mysql_data:
+
+
