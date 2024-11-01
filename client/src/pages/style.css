@@ -248,6 +248,7 @@ h3 {
   margin-bottom: 30px;
   padding: 20px;
   border-radius: 10px;
+  font-family: "Roboto", sans-serif;
 }
 
 .headings,
@@ -280,7 +281,9 @@ h3 {
   font-size: 18px;
   border: none;
 }
-
+.currency_style{
+  font-family: 'Times New Roman', Times, serif;
+}
 /* Media queries for responsiveness */
 
 @media screen and (max-width: 768px) {
