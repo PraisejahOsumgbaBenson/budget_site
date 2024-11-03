@@ -3,6 +3,7 @@
 
 body {
   background: #f1e4e8;
+  font-family: "Roboto", sans-serif;
 }
 .notification {
   position: fixed; /* Use fixed positioning */
@@ -169,7 +170,7 @@ h3 {
 .description-input {
   height: 2.063rem;
   background: #ffffff;
-  border: 0.188rem solid #e2dcde;
+  border: 0.188rem solid #cec7ca;
   box-sizing: border-box;
   border-radius: 0.25rem;
   font-family: "Epilogue", sans-serif;
@@ -179,6 +180,8 @@ h3 {
   line-height: 0.879rem;
   color: #000000;
   padding: 0.438rem;
+  margin-left: 5px;
+
 }
 .list-heading {
   display: grid;
@@ -405,6 +408,7 @@ h3 {
     justify-content: space-around;
     padding: 0.313rem;
     flex-wrap: wrap;
+
   }
 
   .button {
@@ -439,6 +443,8 @@ h3 {
   }
   .button {
     margin-left: 10px;
+    font-size: 13px;
+   
   }
 }
 
