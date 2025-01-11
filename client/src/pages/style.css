@@ -442,6 +442,36 @@ h3 {
     font-size: 20px;
   }
 
+ 
+.list-input {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Align inputs horizontally with space */
+  align-items: flex-start; /* Align items to the top */
+  /* Space between inputs */
+  position: relative; /* To help position the button if needed */
+}
+
+.list-input input {
+  width: calc(20% - 10px); /* Adjust width and spacing for inputs */
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+.button {
+  width: 30%; /* Define button width */
+  padding: 10px 15px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  margin-top: -3px; /* Add space above the button */
+  align-self: center; /* Center the button within the parent flexbox */
+}
+
 }
 
 @media screen and (max-width: 768px) {
