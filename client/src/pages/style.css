@@ -3,7 +3,7 @@
 
 body {
   background: #f1e4e8;
-  font-family: "Roboto", sans-serif;
+  font-family: "Bebas Neue";
 }
 .notification {
   position: fixed; /* Use fixed positioning */
@@ -298,7 +298,7 @@ h3 {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 15px;
-    font-size: 0.9rem;
+    font-size: 0.6rem;
   }
 
   .list-item {
@@ -410,7 +410,25 @@ h3 {
     flex-wrap: wrap;
 
   }
-
+.list-heading,
+.list-item {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+  font-size: 0.7rem;
+  align-items: center;
+  justify-content: space-around;
+}
+.total span {
+  font-size: 1.2rem;
+  margin-left: -3px;
+}
+.currency_style{
+  font-size: 15px;
+}
+.currency{
+  font-size: 15px;
+}
   .button {
     font-size: 10px;
     margin-bottom: 23px;
@@ -420,24 +438,29 @@ h3 {
   input {
     margin-left: 5px;
   }
+  h3{
+    font-size: 20px;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
   .list-container {
     padding: 15px;
     width: 90%;
+   /*  height: 200px; */
   }
   .list-item {
     display: grid;
     grid-template-columns: 40px 1fr 1fr 1fr 1fr 1fr;
-    gap: 15px;
+    gap: 5px;
     align-items: center;
     padding: 10px;
   }
   .list-heading {
     display: grid;
     grid-template-columns: 40px 1fr 1fr 1fr 1fr 1fr;
-    gap: 15px;
+    gap: 5px;
     align-items: center;
     padding: 10px;
   }
@@ -446,6 +469,14 @@ h3 {
     font-size: 13px;
    
   }
+  .headings,
+.details {
+  display: grid;
+  grid-template-columns: 80px 1fr 1fr;
+  gap: 20px;
+  text-align: left;
+  padding: 10px;
+}
 }
 
 @media screen and (min-width: 768px) {
