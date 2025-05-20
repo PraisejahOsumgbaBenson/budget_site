@@ -153,8 +153,8 @@ const showMessageWithDelay = () => {
           {message} {/* Display message here */}
         </div>
       )}
-      <h1>BudgetBuddy</h1>
-      <h3>YOUR DIGITAL MARKET LIST</h3>
+      <h1>MarketCalc</h1>
+      <h3>YOUR DIGITAL MARKET LIST Calc </h3>
       <div className="details-container">
         <div className="headings">
           <h4>Total Budget</h4>
