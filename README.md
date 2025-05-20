@@ -1,6 +1,6 @@
-# BudgetBuddy 🛒
+# MarketCalc 🛒
 
-**BudgetBuddy** is a digital budgeting tool built with React. It helps users manage their expenses by adding items to a market list, calculating the total amount spent, and comparing it against a customizable budget. Users can also select their preferred currency and receive notifications for successful actions or errors.
+**MarketCalc** is a digital budgeting tool built with React. It helps users manage their expenses by adding items to a market list, calculating the total amount spent, and comparing it against a customizable budget. Users can also select their preferred currency and receive notifications for successful actions or errors.
 
 
 ## Features
@@ -15,5 +15,6 @@
 
 ### Prerequisites
 - Make sure you have **Node.js** installed to run this project locally.
+
 
 
