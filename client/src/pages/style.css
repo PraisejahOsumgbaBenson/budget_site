@@ -417,8 +417,21 @@ h3 {
 
 @media screen and (max-width: 768px) {
   .list-container {
-    padding: 15px;
+    padding: 10px;
     width: 90%;
+    justify-items: center;
+  }
+  .details-container {
+    justify-content: center;
+    align-self: center;
+    width: 80%;
+  }
+  .headings,
+  .details {
+    display: grid;
+    grid-template-columns: 80px 1fr 1fr;
+    gap: 30px;
+    padding: 10px;
   }
   .list-item {
     display: grid;
