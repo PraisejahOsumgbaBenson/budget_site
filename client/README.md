@@ -1,6 +1,6 @@
-# BudgetBuddy 🛒
+# MarketCalc 🛒
 
-BudgetBuddy is a digital budgeting tool built with React, MySQL, and Docker. It helps users manage their expenses by adding, editing, and deleting items on a market list, setting a budget, and tracking the remaining balance. This project uses Docker to set up a MySQL database, Drizzle ORM for database operations, and has a separate frontend and backend.
+**MarketCalc** is a digital budgeting tool built with React. It helps users manage their expenses by adding items to a market list, calculating the total amount spent, and comparing it against a customizable budget. Users can also select their preferred currency and receive notifications for successful actions or errors.
 
 ## Features
 - **Item Management:** Add, edit, and delete items with fields for name, description, quantity, unit price, and total cost.
